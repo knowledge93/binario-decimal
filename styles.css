@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Schibsted+Grotesk&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+.container {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    border: 3px solid #3d2c84;
+    padding: 1em;
+    border-radius: 1em;
+}
+.title{
+    font-size: 1.5em;
+    margin-bottom: .5em;
+    text-align: center;
+}
+label{
+    width: 100%;
+    display: block;
+    margin-bottom: .5em;
+}
+
+input{
+    width: 100%;
+    margin-bottom: .5em;
+    padding: .5em;
+    border-radius: .3em;
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    display: block;
+    width: 100%;
+    border-radius: .5em;
+    padding: .5em;
+    border: none;
+    cursor: pointer;
+    margin-top: .5em;
+}
+
+.btn-calcular{
+    background-color: #1fb943;
+}
+
+.btn-limpiar{
+    background-color: #ec4272;
+}
